@@ -1,0 +1,38 @@
+#product img {
+    width: 300px;
+}
+
+#product {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+}
+
+#task {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#task button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#task button:disabled {
+    opacity: 0.3;
+}
+
+#task strong {
+    font-size: 20px;
+    color: darkblue;
+}
+
+#even-odd-banner {
+    text-align: end;
+}

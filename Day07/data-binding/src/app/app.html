@@ -1,0 +1,27 @@
+<h2 style="margin: 20px;">Product</h2>
+<div id="product">
+  <img src={{image_url}} alt={{product_name}}>
+  <h3>{{product_name}}</h3>
+  <p>Price: {{product_price}} </p>
+  <!-- This below code uses "String Interpolation" => Only String Data -->
+  <button disabled={{!isAvailable}} >Add to Cart</button>
+
+  <br>
+  <!-- This below code uses "Property Binding" => All types of Data -->
+  <button [disabled]="!isAvailable" >Add to Cart</button>
+
+  <br>
+  <!-- This below code uses "Event Binding" => All types of Data -->
+  <button (click)="button_click()" >Add to Cart</button> <br>
+</div> <br>
+
+<!-- Counter App -->
+<h2 style="margin: 20px;">Counter</h2>
+<div id="task">
+  <!-- Task -->
+  <p id="even-odd-banner">{{evenOdd}}</p>
+  <p>Users Visited : <strong>{{count}}</strong> </p>
+  <button (click)="countIncrement()" [disabled]="isCount20">Increase</button>
+  <button (click)="countDecrement()" [disabled]="isCount0">Decrease</button>
+  <button (click)="countReset()">Reset</button>
+</div>
