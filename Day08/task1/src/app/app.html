@@ -1,0 +1,11 @@
+<h1>TASK 1</h1>
+
+<div class="box">
+  <input type="email" [(ngModel)]="emailEle"> <br><br>
+  <input type="password" [(ngModel)]="pwdEle"> <br><br>
+  <button (click)="submit()" >Submit</button>
+</div>
+<div class="box">
+  <p>Email: <span>{{emailEle}}</span> </p>
+  <p>Password: <span>{{pwdEle}}</span> </p>
+</div>

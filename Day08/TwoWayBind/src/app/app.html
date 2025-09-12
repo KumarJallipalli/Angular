@@ -1,0 +1,10 @@
+<div>
+  <input type="text" placeholder="Type here.." id="o-w">
+  <button (click)="inputValue()" >Click</button>
+  <p>{{val}}</p>
+</div>
+
+<div>
+  <input type="text" placeholder="Type here.." [(ngModel)]="twoWayBindVal">
+  <p>{{twoWayBindVal}}</p>
+</div>

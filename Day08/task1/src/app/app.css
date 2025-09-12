@@ -1,0 +1,17 @@
+.box {
+    width: 250px;
+    background-color: #31465a;
+    padding: 20px;
+    margin: 20px;
+    border: 2px #F1E0C5 solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bec1c6;
+}
+
+.box span {
+    color: burlywood;
+}
+
+.box input {
+    width: 220px;
+}
